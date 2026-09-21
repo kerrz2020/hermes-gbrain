@@ -1,0 +1,13 @@
+name: gbrain-plugin
+version: "1.2.0"
+description: >-
+  Community (non-official) Hermes plugin that wires GBrain (garrytan/gbrain, MIT) into
+  Hermes as a memory layer over MCP. Adds a /gbrain status command, a desktop UI
+  starter, and setup/update/maintenance scripts (per-profile, Postgres provisioning,
+  crons). Not affiliated with the upstream GBrain project.
+author: kerrz2020
+license: MIT
+homepage: https://github.com/kerrz2020/hermes-gbrain
+tags: [gbrain, brain, memory, mcp, hermes]
+provides_commands:
+  - gbrain
