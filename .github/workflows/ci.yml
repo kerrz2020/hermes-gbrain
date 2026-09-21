@@ -35,7 +35,5 @@ jobs:
       - name: Python compile
         run: |
           python3 -m py_compile __init__.py tools/fm-check.py
-
-      - name: Manifest sanity
-        run: |
-          python3 -c "import yaml;d=yaml.safe_load(open('plugin.yaml'));assert d['name']=='gbrain-plugin';assert 'version' in d and 'description' in d;print('manifest OK')"
+        # Manifest name/version/description are already asserted by `hermes plugins validate`
+        # above; no separate yaml check needed (avoids a runner PyYAML dependency).
