@@ -56,4 +56,4 @@ jobs:
             -v "${GITHUB_WORKSPACE}:/mnt" \
             -w /mnt \
             "${SHELLCHECK_IMAGE}" \
-            -x "${scripts[@]}"
+            -x -S error "${scripts[@]}"
