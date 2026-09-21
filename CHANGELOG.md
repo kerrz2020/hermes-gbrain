@@ -1,3 +1,12 @@
+## [1.2.1] — 2026-09-21
+
+Public-release hygiene, matching a polished plugin repo:
+- Added a dedicated GitHub **security workflow** (`security.yml`): Gitleaks (secret scan) +
+  ShellCheck on `*.sh`, with `.gitleaks.toml`, `SECURITY.md`, `CONTRIBUTING.md`,
+  `CODE_OF_CONDUCT.md`, a real `LICENSE` (MIT) file, `.pre-commit-config.yaml`, and CI +
+  Security + License badges in the README.
+- Version bumped to 1.2.1.
+
 ## [1.2.0] — 2026-09-21
 
 Public release. Translated to English, cleaned for open-source (no hostnames, usernames,

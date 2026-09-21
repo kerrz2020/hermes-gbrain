@@ -1,0 +1,15 @@
+title = "hermes-gbrain gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Documented placeholder values that are intentionally non-secret"
+regexes = [
+  '''(?i)^your-token$''',
+  '''(?i)^your-api-key$''',
+  '''(?i)^example-token$''',
+  '''(?i)^dummy-token$''',
+  '''(?i)^<pw>.*''',
+  '''(?i)^\*{3}$''',
+]

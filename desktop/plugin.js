@@ -19,7 +19,7 @@ function GBrainPane() {
       jsx('div', { className: 'text-(--ui-text-tertiary)', children: `gateway: ${gateway}` }),
       jsx('div', {
         className: 'mt-auto text-(--ui-text-tertiary)',
-        children: 'v1.2.0 · kerrz2020/hermes-gbrain · upstream: garrytan/gbrain (MIT)',
+        children: 'v1.2.1 · kerrz2020/hermes-gbrain · upstream: garrytan/gbrain (MIT)',
       }),
     ],
   })

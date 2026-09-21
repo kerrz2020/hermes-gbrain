@@ -1,5 +1,9 @@
 # hermes-gbrain
 
+[![CI](https://github.com/kerrz2020/hermes-gbrain/actions/workflows/ci.yml/badge.svg)](https://github.com/kerrz2020/hermes-gbrain/actions/workflows/ci.yml)
+[![Security scans](https://github.com/kerrz2020/hermes-gbrain/actions/workflows/security.yml/badge.svg)](https://github.com/kerrz2020/hermes-gbrain/actions/workflows/security.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Community (non-official) Hermes plugin that wires **GBrain** into Hermes as a memory
 layer. It provides a unified package modeled on the pattern of one-link install,
 per-profile setup, easy updates, and a small desktop starter UI.

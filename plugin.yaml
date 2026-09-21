@@ -1,5 +1,5 @@
 name: gbrain-plugin
-version: "1.2.0"
+version: "1.2.1"
 description: >-
   Community (non-official) Hermes plugin that wires GBrain (garrytan/gbrain, MIT) into
   Hermes as a memory layer over MCP. Adds a /gbrain status command, a desktop UI
